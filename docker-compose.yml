@@ -6,7 +6,7 @@ services:
     environment:
       EULA: "true"
       MEMORY: 2G
-      MOTD: "SYS-265 §9§Docker Project§r"
+      MOTD: "&aSYS-265 &7- &9Docker Project" 
     ports:
       - "25565:25565"
     volumes:
