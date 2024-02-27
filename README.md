@@ -1,5 +1,3 @@
-# === Currently WIP ===
-
 # Docker-Project: Minecraft Server
 Docker Minecraft Server and Server Monitor Build for SYS-265
 
@@ -9,7 +7,7 @@ Purpose: The goal of this project is to learn how to use docker to configure and
 ### Elements of Build
 
 **Minecraft Server**
-* Minecraft Server
+* Minecraft Server - Service hosting a multiplayer minecraft server
 
 **Monitoring Stack**
 * Grafana - Open Source Dashboard Service used to monitor graphs and alerts from its configured data sources (Will be used as a dashboard to monitor our minecraft server)
@@ -27,6 +25,7 @@ Purpose: The goal of this project is to learn how to use docker to configure and
 * After downloading the following config files from this repository, move to the directory `Minecraft-Servermon`
 * Run `docker-compose up -d` (this should now start the minecraft server and monitoring services)
 * Use the `docker ps` command to verify that all containers are up running.
+* To stop the minecraft server, run `docker stop <list-all-docker-conatiners-here>`
 
 ## Credit
 * This project was modified using an example from [itzg's mc-monitor](https://github.com/itzg/mc-monitor)
