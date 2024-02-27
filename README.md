@@ -33,11 +33,15 @@ Purpose: The goal of this project is to learn how to use docker to configure and
 * Once you reach the home screen, we can view the status of our Minecraft server by selecting `Dashboard` > `Browse` > `MC Monitor`
 
 (screenshot goes here)
+> Figure 1: Screenshot of me viewing the status of the docker minecraft server via Grafana MC Monitor Dashboard
 
 ### Accessing the Server as a Client
 * Before joining the Minecraft Server, make sure that you have an up-to-date version of the game. [Minecraft Download Link Here](https://www.minecraft.net/en-us/download)
 * After openening the game, you can navigate to `Multiplayer` and then to `Add Server`. From here we can enter a Server Name and enter the IP/Hostname of our docker system running the Minecraft Server Container (ex. Docker01).
-* 
+* After clicking `Done` you should now be able to join the Minecraft server
+
+(Screenshot)
+> Figure 2: Screenshot of the Docker Minecraft server successfully configured on the Minecraft client.
 
 ## Credit
 * This project was modified using an example from [itzg's mc-monitor](https://github.com/itzg/mc-monitor)
