@@ -12,7 +12,7 @@ Purpose: The goal of this project is to learn how to use docker to configure and
 **Monitoring Stack**
 * Grafana - Open Source Dashboard Service used to monitor graphs and alerts from its configured data sources (Will be used as a dashboard to monitor our Minecraft server)
 * Prometheus - Open Source systems monitoring and alerting toolkit used to collect and store metric information from client devices (Provides the database and metric information for Grafana dashboard)
-* Cadvisor - (Container Advisor) Open Source utility used to monitor the status of containers (Provides container resrouce information on our Minecraft server)
+* Cadvisor - (Container Advisor) Open Source utility used to monitor the status of containers (Provides container resource information on our Minecraft server)
 * mc-monitor - Agent used to monitor the status of Docker Minecraft Servers
 
 ### Initial Setup
