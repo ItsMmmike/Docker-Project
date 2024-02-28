@@ -32,7 +32,8 @@ Purpose: The goal of this project is to learn how to use docker to configure and
 * Log in using the default credentials (U:"admin", P:"admin"), you should be promted to change the password after completing this step.
 * Once you reach the home screen, we can view the status of our Minecraft server by selecting `Dashboard` > `Browse` > `MC Monitor`
 
-(screenshot goes here)
+![image](https://github.com/ItsMmmike/Docker-Project/assets/113321364/fe5e35a5-020f-40d7-a541-049bd36a14a2)
+
 > Figure 1: Screenshot of me viewing the status of the docker minecraft server via Grafana MC Monitor Dashboard
 
 ### Accessing the Server as a Client
@@ -40,7 +41,8 @@ Purpose: The goal of this project is to learn how to use docker to configure and
 * After openening the game, you can navigate to `Multiplayer` and then to `Add Server`. From here we can enter a Server Name and enter the IP/Hostname of our docker system running the Minecraft Server Container (ex. Docker01).
 * After clicking `Done` you should now be able to join the Minecraft server
 
-(Screenshot)
+![image](https://github.com/ItsMmmike/Docker-Project/assets/113321364/617f2015-f06d-4151-b438-5dcd4382354e)
+
 > Figure 2: Screenshot of the Docker Minecraft server successfully configured on the Minecraft client.
 
 ## Credit
